@@ -13,4 +13,16 @@ main {
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.418);
+
+    overflow: hidden;
+}
+
+main iframe {
+    max-width: 100%; /* Garante que o vídeo não exceda a largura do contêiner pai */
+    display: block; /* Evita problemas de exibição em linha */
+    margin: 0 auto; /* Centraliza o vídeo horizontalmente */
+}
+
+img.lado {
+    float: right;
 }
